@@ -21,7 +21,10 @@ namespace BBL.Data.Models
         public TaskStatus TaskStatus { get; set; }
 
         //Navigation properties
+        public IEnumerable<TaskQuestionModel> TaskQuestions { get; set; }
+        public IEnumerable<TaskFileModel> TaskFiles { get; set; }
+
         public ProfessorModel Professor { get; set; }
-        public int ProfessorId { get; set; }
+        public int ProfessorId { get; set; }        
     }
 }
