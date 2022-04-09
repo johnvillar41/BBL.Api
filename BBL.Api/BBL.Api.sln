@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBL.Api", "BBL.Api.csproj", "{FD80FCA5-74B8-4B96-9FC0-AF58A95F1102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBL.Api", "BBL.Api.csproj", "{FD80FCA5-74B8-4B96-9FC0-AF58A95F1102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBL.Models", "..\BBL.Models\BBL.Models.csproj", "{E908904C-6709-4DB5-BFBD-BAE2C935C958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBL.Data", "..\BBL.Models\BBL.Data.csproj", "{E908904C-6709-4DB5-BFBD-BAE2C935C958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBL.Services", "..\BBL.Services\BBL.Services.csproj", "{B792A4FE-A597-4C4D-94E0-1824C315E80B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E908904C-6709-4DB5-BFBD-BAE2C935C958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E908904C-6709-4DB5-BFBD-BAE2C935C958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E908904C-6709-4DB5-BFBD-BAE2C935C958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B792A4FE-A597-4C4D-94E0-1824C315E80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B792A4FE-A597-4C4D-94E0-1824C315E80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B792A4FE-A597-4C4D-94E0-1824C315E80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B792A4FE-A597-4C4D-94E0-1824C315E80B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

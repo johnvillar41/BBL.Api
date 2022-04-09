@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BBL.Data
+namespace BBL.Services
 {
     public class Class1
     {
