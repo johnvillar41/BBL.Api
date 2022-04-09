@@ -12,9 +12,12 @@ namespace BBL.Data.Models
         [Key]
         public int TaskCommentId { get; set; }
         public string Comment { get; set; }
-        
+
         //Navigation properties
+        public TaskModel Task { get; set; }
         public int TaskId { get; set; }
+
+        public StudentModel Student { get; set; }
         public int StudentId { get; set; }
     }
 }
